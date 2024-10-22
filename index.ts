@@ -24,10 +24,7 @@ document.addEventListener('DOMContentLoaded', () => {
         };
 
        
-        if (!formData.name || !formData.email || !formData.contactNumber || !formData.subject || !formData.message) {
-            alert('Please fill in all required fields.');
-            return;
-        }
+        
 
         console.log('Form data:', formData); 
         try {
