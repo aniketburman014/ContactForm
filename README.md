@@ -1,4 +1,4 @@
-##Contact Form Page
+## Contact Form Page
 ![Project Screenshot](ScreenShot/page.jpg)
 
 ## Submission
@@ -6,7 +6,5 @@
 
 ## Mock Api
 ![Image 1](ScreenShot/mockApi.jpg)
-
-## Submission
 ![Image 2](ScreenShot/mockApi2.jpg)
 
