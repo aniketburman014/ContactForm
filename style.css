@@ -1,0 +1,164 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    margin: 0 ;
+   
+    background-color: #f8f9fa;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.contact-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    justify-content: center;
+    
+    padding: 20px;
+    
+    width: 70%;
+    gap: 70px;
+}
+
+.contact-info {
+    width: 45%;
+}
+.contact-details{
+    display: flex;
+    flex-direction: column;
+    margin-left: 40px;
+    
+}
+.head{
+    margin-left: 40px;
+}
+.head h1{
+    font-size: 35px;
+    margin-bottom: 0;
+}
+.head p{
+    margin-top: 5px;
+    font-size: 17px;
+    line-height: 1.5;
+}
+.detail{
+    display: flex;
+    flex-direction: row;
+    gap: 40px;
+    margin-bottom: 20px;
+    
+    padding-top: 10px;
+    padding-bottom: 30px;
+    border-bottom: 1px solid lightgray; 
+}
+.border{
+    border-top: 1px solid lightgray;
+    padding-top: 25px; 
+}
+.icon1{
+    width: 45px;
+    margin-right: 25px;
+    
+}
+.icon1 img{
+    
+    width: 100%;
+}
+.icon2{
+    width: 70px;
+    
+}
+.icon2 img{
+    
+    width: 100%;
+}
+.icon3{
+    margin-right: 30px;
+    width: 110px;
+    
+}
+.icon3 img{
+    
+    width: 100%;
+}
+.text {
+    display: flex;
+    flex-direction: column;
+    
+}
+.text-1{
+    font-size: 16px;
+    font-weight: 400;
+    color: hsl(0, 3%, 71%);
+    margin-bottom: 7px;
+}
+.text-2{
+    font-size: 19px;
+    line-height: 1.4;
+    font-weight:800;
+}
+.text1{
+    margin-bottom: 15px;
+}
+
+.form-container {
+    position: relative;
+    width: 45%;
+    height: 100%;
+    background-color: white;
+    padding: 20px;
+    border-radius: 8px;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+.design{
+    position: absolute;
+    width: 130px;
+    right: 0;
+    top: 0;
+}
+.design img{
+    width: 100%;
+}
+form label {
+    margin: 10px 0 5px;
+}
+
+form input, form textarea {
+    padding: 8px;
+    margin-bottom: 15px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+form textarea{
+    height: 100px
+}
+input:focus,textarea:focus{ 
+    outline: none !important;
+    border-color: #28a745;
+    box-shadow: 0 0 5px green;
+ }
+
+.send-button {
+    padding: 10px;
+    background-color: #28a745;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    height: 50px;
+}
+
+.send-button:hover {
+    background-color: #218838;
+}
+
+.highlight {
+    color: green;
+}
